@@ -23,8 +23,11 @@
     header {
       position: sticky;
       top: 0;
-      background-color: white;
-      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       z-index: 1000;
     }
 
@@ -339,8 +342,7 @@
       <nav>
         <a href="hotspot.html"><i class="fa-solid fa-house"></i>Home</a>
         <a href="https://www.pn-gunungsugih.go.id/" target="_blank"><i class="fa-solid fa-globe"></i>Website</a>
-        <a href="http://192.168.1.2/sipp/login" target="_blank"><i class="fa-solid fa-gavel"></i>SIPP</a>
-        <a href="panduan.html" class="active"><i class="fa-solid fa-book-open"></i>Panduan</a>
+        <a href="http://192.168.0.1/sipp/login" target="_blank"><i class="fa-solid fa-gavel"></i>SIPP</a>
       </nav>
     </div>
   </header>
@@ -355,7 +357,7 @@
       <div class="category-title">Kepaniteraan</div>
       <div class="card-grid">
         <!-- SIPP -->
-        <a href="http://192.168.1.2/sipp/login" class="card" target="_blank" rel="noopener noreferrer">
+        <a href="http://192.168.0.1/sipp/login" class="card" target="_blank" rel="noopener noreferrer">
           <div class="card-image">
             <img src="img/aplikasi/sipp.jpeg" alt="SIPP" />
           </div>
@@ -365,7 +367,7 @@
           </div>
         </a>
         <!-- MIS -->
-        <a href="http://192.168.1.2/mis/" class="card" target="_blank" rel="noopener noreferrer">
+        <a href="http://192.168.0.1/mis/" class="card" target="_blank" rel="noopener noreferrer">
           <div class="card-image">
             <img src="img/aplikasi/MIS.png" alt="MIS" />
           </div>
@@ -375,7 +377,7 @@
           </div>
         </a>
         <!-- SIPP Sinkron -->
-        <a href="http://192.168.1.2/mis/sinkronisasi" class="card" target="_blank" rel="noopener noreferrer">
+        <a href="http://192.168.0.1/mis/sinkronisasi" class="card" target="_blank" rel="noopener noreferrer">
           <div class="card-image">
             <img src="img/aplikasi/Sinkron.png" alt="SIPP Sinkron" />
           </div>
@@ -520,10 +522,10 @@
           </div>
         </a>
         <!-- Card 16 -->
-        <a href="https://placehold.co/600x140?text=Card+16" class="card" target="_blank" rel="noopener noreferrer"
-          tabindex="0" aria-labelledby="title16 desc16">
+        <a href="https://www.pn-gunungsugih.go.id/" class="card" target="_blank" rel="noopener noreferrer" tabindex="0"
+          aria-labelledby="title16 desc16">
           <div class="card-image">
-            <img src="img/aplikasi/pngns.jpeg" alt="Card 16" />
+            <img src="img/aplikasi/pngns.png" alt="Card 16" />
           </div>
           <div class="card-text">
             <h2 class="card-title" id="title16">PNGNS</h2>
@@ -598,7 +600,7 @@
           </div>
         </a>
         <!-- PTSP+ -->
-        <a href="http://192.168.1.2/ptsp/login" class="card" target="_blank" rel="noopener noreferrer">
+        <a href="http://192.168.0.1/ptsp/login" class="card" target="_blank" rel="noopener noreferrer">
           <div class="card-image">
             <img src="img/aplikasi/PTSP.png" alt="PTSP+" />
           </div>
@@ -696,18 +698,6 @@
     <section class="card-section" id="inovasi">
       <div class="category-title">Inovasi</div>
       <div class="card-grid">
-
-        <!-- Card 13 -->
-        <a href="https://api.whatsapp.com/send/?phone=6281379122344&text=PTSP+PN+GUNUNG+SUGIH+SIAP+MEMBANTU+ANDA+&type=phone_number&app_absent=0"
-          class="card" target="_blank" rel="noopener noreferrer" tabindex="0" aria-labelledby="title13 desc13">
-          <div class="card-image">
-            <img src="img/aplikasi/wa.png" alt="Card 13" />
-          </div>
-          <div class="card-text">
-            <h2 class="card-title" id="title13">WA Gunsu</h2>
-            <p class="card-desc" id="desc13">Pelayanan PTSP Online</p>
-          </div>
-        </a>
         <!-- Card 14 -->
         <a href="https://apriprogram.github.io/SIMABARA/index.html" class="card" target="_blank"
           rel="noopener noreferrer" tabindex="0" aria-labelledby="title14 desc14">
